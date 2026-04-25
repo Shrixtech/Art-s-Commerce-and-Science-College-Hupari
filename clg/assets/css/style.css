@@ -1,0 +1,11 @@
+:root{--primary:#0d6efd;--secondary:#ffc107;--bg:#ffffff;--text:#212529}
+.theme-emerald{--primary:#198754;--secondary:#20c997;--bg:#f8fffb;--text:#123}
+.theme-royal{--primary:#4c34b8;--secondary:#b58cff;--bg:#f8f5ff;--text:#201a44}
+body{background:var(--bg);color:var(--text)}
+.btn-primary{background:var(--primary);border-color:var(--primary)}
+.hero-section{position:relative;min-height:70vh;background:url('../images/hero.svg') center/cover no-repeat}
+.hero-section .overlay{position:absolute;inset:0;background:linear-gradient(120deg,rgba(0,0,0,.6),rgba(13,110,253,.35))}
+.video-section{background:linear-gradient(135deg,var(--primary),#000)}
+.card{transition:transform .25s}.card:hover{transform:translateY(-4px)}
+@media (max-width:575.98px){.hero-section{min-height:55vh}}
+@media (min-width:768px){.hero-section h2{font-size:3rem}}
